@@ -35,7 +35,6 @@ Step 2A, creating podman container for PostgreSQL database: enter the following 
         -d postgres
 
 
-
 	* I reidirate, the ports have been mapped in the pod, DO NOT TRY
 		TO MAP THEM AGAIN HERE!
 

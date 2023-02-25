@@ -27,7 +27,7 @@ Step 1, create the pod: enter the following command to create the pod.
 Step 2 A, creating podman container for PostgreSQL database: enter the following command.
 
 
-		podman run \
+	podman run \
         --name $DATABASE_NAME \
         --pod pokedoom-pod \
         -e POSTGRES_PASSWORD=WhateverYourPasswordIs \

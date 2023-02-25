@@ -28,7 +28,7 @@ Step 2 A, creating podman container for PostgreSQL database: enter the following
 
 
 	podman run \
-        --name $DATABASE_NAME \
+        --name WhateverYouWantToCallYourDatabaseContainer \
         --pod pokedoom-pod \
         -e POSTGRES_PASSWORD=WhateverYourPasswordIs \
         -e POSTGRES_USER=WhateverYourUserNameIs \
@@ -43,14 +43,14 @@ Step 2 B, creating podman container for Spring Boot application:
 	enter the following command, it is assumed the container has been built already
 
 	
-		podman run \
-		--pod pokedoom-pod \
-		-e DB_PASSWD=WhateverYourPasswordIs \
-		-e DB_URL=WhateverYourPostgreSQL_URL_Is \
-		-e DB_USERNAME=WhateverYourUserNameIs \
-		-e FRONT_END_ADDRESS=WhateverYourFrontEndAddressIs \
-		-e JWT_SECRET=WhateverYourJWTSecretIs \
-		WhateverYourImageIsCalled
+	podman run \
+	--pod pokedoom-pod \
+	-e DB_PASSWD=WhateverYourPasswordIs \
+	-e DB_URL=WhateverYourPostgreSQL_URL_Is \
+	-e DB_USERNAME=WhateverYourUserNameIs \
+	-e FRONT_END_ADDRESS=WhateverYourFrontEndAddressIs \
+	-e JWT_SECRET=WhateverYourJWTSecretIs \
+	WhateverYourImageIsCalled
 
 
 	* Once again, DO NOT MAP PORTS HERE!

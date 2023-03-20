@@ -1,9 +1,0 @@
-
-This was done when podman stoped working 
-after virt-manager was given access to Downloads folder.
-The following commands made in an effort to restore home
-to its original permisions resolved the issue.
-
-Moving forward will have a separate user set up virtual machines.
-
-sudo chown -R $USER /home/$USER 

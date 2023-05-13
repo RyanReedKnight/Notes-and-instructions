@@ -12,7 +12,7 @@ are being used.
 
 3. run "make oldconfig" to adjust .config accordingly to the new kernel.
 
-4. Install necisary dependencies listed
+4. Install necessary dependencies listed
 	<a href="https://www.kernel.org/doc/html/v4.12/process/changes.html">here</a>.
 	Note the on Pop OS, and I assume other Debian like distributions, it is
 	necisary to install libelf-dev and libssl-dev.

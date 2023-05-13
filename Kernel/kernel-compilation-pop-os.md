@@ -21,8 +21,8 @@ a different distribution of Linux.
 
 6. Run "sudo make INSTALL_MOD_STRIP=1 module_install" If you do not include
 	the INSTALL_MOD_STRIP=1 option, the kernel will be huge, over 1 GB,
-	and will fill up your EFI partiton (perhaps this is an issue unique to
-	systemd-boot and/or systems with full disk encryption).
+	and will fill up your EFI partiton (perhaps this is only a major problem 
+	for systems using systemd-boot and/or systems with full disk encryption).
 
 7. Run "sudo make install" in source directory to install the kernel.
 

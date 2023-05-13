@@ -1,5 +1,5 @@
 # Kernel compilation and installation on Pop!_OS
-Used the <a href="https://www.youtube.com/watch?v=WiZ05pnHZqM&t=1809s
+I used the <a href="https://www.youtube.com/watch?v=WiZ05pnHZqM&t=1809s
 ">this</a> tutorial as a starting point, though some adjustments were necessary since different I am using
 a different distribution of Linux.
 

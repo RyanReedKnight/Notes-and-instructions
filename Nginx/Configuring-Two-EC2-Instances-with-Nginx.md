@@ -6,7 +6,7 @@ Nginx as a reverse proxy, and are familiar with the configuration files that are
 EC2 instance B hosted a Srping Boot application, which sends images to EC2 instance A when it recieves a request to do so.
 
 # The wrong way of doing this
-  Supose the addresses of the EC2 instances are ```ec2-A.com``` and ```ec2-B.com```, and supose the context path for the Spring Boot application is ```/photo-api```.
+  Supose the addresses of the EC2 instances are ec2-A.com and ec2-B.com, and supose the context path for the Spring Boot application is /photo-api.
 The first time I attempted this, I had Axios fetch photos directly from ec2-B.com, so that a function fetching a photo might look something like this
 ```
 getPhotoBytes = async (photoKey:string):Promise<ArrayBuffer> => {

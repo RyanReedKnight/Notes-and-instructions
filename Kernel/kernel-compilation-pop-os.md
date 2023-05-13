@@ -1,6 +1,7 @@
 # Kernel compilation and installation on Pop!_OS
 Used the <a href="https://www.youtube.com/watch?v=WiZ05pnHZqM&t=1809s
-">this</a> tutorial as a starting point, though some adjustments were necisary.
+">this</a> tutorial as a starting point, though some adjustments were necisary since different Linux distributions
+are being used.
 
 1. Download the release candidate kernel from kerenl.org as a tar and extract
 	it to a working directory, or clone the git repository.

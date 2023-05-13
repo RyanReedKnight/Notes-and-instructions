@@ -46,7 +46,7 @@ getPhotoBytes = async (photoKey:string):Promise<ArrayBuffer> => {
  # The correct way (or at least the way that worked)
   To not violate the cross origin resource policiy of the browser, I had Axios make it's requests to 
   the domain the web page was being hosted on (ec2-A.com), and then used Nginx to direct those calls to
-  ec2-B.com. So the aforemention Axios function would look something like this
+  ec2-B.com. So the aforementioned Axios function would look something like this
   ```
   getPhotoBytes = async (photoKey:string):Promise<ArrayBuffer> => {
         const res = await axios.get<ArrayBuffer>(`http://ec2-A.com/photo-api/files/${photoKey}`,

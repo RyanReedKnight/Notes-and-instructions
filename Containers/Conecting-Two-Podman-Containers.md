@@ -1,9 +1,8 @@
-24 FEB 2023
 Objective: to connect two podman containers, in this case,
 one containing a Spring Boot instance, and the other an associated 
 PostgreSQL database.
 
-Method: The objective will be acomplished using a pod, a feature of podman 
+Method: Use a pod, a feature of podman 
 that allows two containers to share ports. The pod is created first, and then integrated
 with the two containers.
 

@@ -1,4 +1,4 @@
-# My experience using Nginx to connect two EC instances.
+# My experience using Nginx to connect two EC2 instances.
   I am documenting my experience setting up a proxy server via Nginx. My goal is to make this the tutorial I wish I had when I was setting this up for the first time. This assumes you have been through a tutorial on how to use 
 Nginx as a reverse proxy, and are familiar with the basic configuration files that are required.
 # What I was trying to accomplish.

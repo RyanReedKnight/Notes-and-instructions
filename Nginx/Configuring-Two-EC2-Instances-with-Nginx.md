@@ -81,7 +81,7 @@ getPhotoBytes = async (photoKey:string):Promise<ArrayBuffer> => {
 }
 
  ```
-The browser no longer needs to make calls to a different endpoint than the one it is served from,
+The browser no longer needs to make calls to a different endpoint than the one the webpage is served from,
 and CORS violations are no longer an issue.
   
  

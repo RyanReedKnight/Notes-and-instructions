@@ -11,7 +11,7 @@ Used the <a href="https://www.youtube.com/watch?v=WiZ05pnHZqM&t=1809s
 3. run "make oldconfig" to adjust .config accordingly to the new kernel.
 
 4. Install necisary dependencies listed
-	at https://www.kernel.org/doc/html/v4.12/process/changes.html.
+	<a href="https://www.kernel.org/doc/html/v4.12/process/changes.html">here</a>.
 	Note the on Pop OS, and I assume other Debian like distributions, it is
 	necisary to install libelf-dev and libssl-dev.
 

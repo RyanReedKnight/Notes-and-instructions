@@ -7,7 +7,7 @@ EC2 instance B hosted a Srping Boot application, which sends images to EC2 insta
 
 # The wrong way of doing this
   Supose the addresses of the EC2 instances are ec2-A.com and ec2-B.com, and supose the context path for the Spring Boot application is /photo-api.
-The first time I attempted this, I had Axios fetch photos directly from ec2-B.com, so that a function fetching a photo might look something like this
+The first time I attempted this, I had Axios fetch photos directly from ec2-B.com, so that a function fetching a photo would look something like this
 ```
 getPhotoBytes = async (photoKey:string):Promise<ArrayBuffer> => {
         const res = await axios.get<ArrayBuffer>(`http://ec2-B.com/photo-api/files/${photoKey}`,

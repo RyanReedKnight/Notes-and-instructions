@@ -1,5 +1,5 @@
-Based on tutotial "Upload an image in Spring Boot; Save to Disk with IntelliJ IDEA" by Brandon Jones
-url: https://www.youtube.com/watch?v=UhSEsoIUROA
+Based on tutorial <a href="https://www.youtube.com/watch?v=UhSEsoIUROA
+">"Upload an image in Spring Boot; Save to Disk with IntelliJ IDEA"</a> by Brandon Jones
 
 Create form in HTML file with method="post", enctype="multipart/form-data", action"<endpoint in spring boot app>".
 As a child of this form, write an input with type="file" and name="imageFile" (the name will corespond to a RequestParam in the spring boot application). Write an additional input child of type submit.

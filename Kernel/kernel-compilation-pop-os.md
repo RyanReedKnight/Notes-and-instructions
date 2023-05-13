@@ -15,7 +15,7 @@ a different distribution of Linux.
 4. Install necessary dependencies listed
 	<a href="https://www.kernel.org/doc/html/v4.12/process/changes.html">here</a>.
 	Note the on Pop OS, and I assume other Debian like distributions, it is
-	necisary to install libelf-dev and libssl-dev.
+	necessary to install libelf-dev and libssl-dev.
 
 5. In the .config file, set both CONFIG_SYSTEM_TRUSTED_KEYS to "".
 

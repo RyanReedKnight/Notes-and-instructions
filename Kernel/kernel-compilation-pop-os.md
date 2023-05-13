@@ -10,7 +10,7 @@ a different distribution of Linux.
 	to .config to the source directory. The location of the config file will vary 
 	between different distributions.
 
-3. run "make oldconfig" to adjust .config accordingly to the new kernel.
+3. Run "make oldconfig" to adjust .config accordingly to the new kernel.
 
 4. Install necessary dependencies listed
 	<a href="https://www.kernel.org/doc/html/v4.12/process/changes.html">here</a>.

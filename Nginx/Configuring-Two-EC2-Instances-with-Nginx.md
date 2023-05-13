@@ -16,7 +16,7 @@ getPhotoBytes = async (photoKey:string):Promise<ArrayBuffer> => {
         return res.data;
 }
 ```
-  The config I would use when setting up Nginx the pass the calls to ec2-B.com would be as follows (note the 
+  The config I would use when setting up Nginx to pass the calls to ec2-B.com would be as follows (note the 
   Spring Boot app is configured to run on port 5000). 
  ```
  # ec2-B.conf

@@ -1,7 +1,7 @@
 # My experience using Nginx to connect two EC2 instances.
   I am documenting my experience setting up a proxy server via Nginx. My goal is to make this the tutorial I wish I had when I was setting this up for the first time. This assumes you have been through a tutorial on how to use 
 Nginx as a reverse proxy, and are familiar with the configuration files that are required.
-# What I was trying to accomplish.
+# What I was trying to accomplish
   I had two EC2 instances set up on AWS, EC2 instance A needed to serve a React website, and to direct Axios calls from the website to EC2 instance B.
 EC2 instance B hosted a Srping Boot application, which sends images to EC2 instance A when it recieves a request to do so.
 

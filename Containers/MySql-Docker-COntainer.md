@@ -1,5 +1,6 @@
 
 Command to set up mysql in a docker container locally.
+
 docker run --name mysql-box \
 -v $HOME/.mysql-storage:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=password \

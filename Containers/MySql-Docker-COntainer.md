@@ -8,5 +8,5 @@ docker run --name mysql-box \
 -e MYSQL_PASSWORD=user-password \
 -e MYSQL_DATABASE=php-store-a 
 -p 3306:3306  \
--d mysql:lates
+-d mysql:latest
 ```

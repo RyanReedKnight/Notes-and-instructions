@@ -84,7 +84,7 @@ getPhotoBytes = async (photoKey:string):Promise<ArrayBuffer> => {
 The browser no longer needs to make calls to a different endpoint than the one the webpage is served from,
 and CORS violations are no longer an issue.
   
- Note: If on a machine that uses sellinux, use `setsebool -P httpd_can_network_connect 1`. [source](https://stackoverflow.com/questions/25995060/nginx-cannot-connect-to-jenkins-on-centos-7) 
+ Note: If on a machine that uses sellinux, use `setsebool -P httpd_can_network_connect 1` [source](https://stackoverflow.com/questions/25995060/nginx-cannot-connect-to-jenkins-on-centos-7) 
 
  
  

@@ -27,10 +27,10 @@ Step 2A, creating podman container for PostgreSQL database: enter the following 
 
 ```
 	podman run \
-        --name WhateverYouWantToCallYourDatabaseContainer \
+        --name $POSTGRES_CONTAINER \
         --pod pokedoom-pod \
-        -e POSTGRES_PASSWORD=WhateverYourPasswordIs \
-        -e POSTGRES_USER=WhateverYourUserNameIs \
+        -e POSTGRES_PASSWORD=$RDS_PASSWORD \
+        -e POSTGRES_USER=$RDS_USERNAME \
         -d postgres
 ```
 
